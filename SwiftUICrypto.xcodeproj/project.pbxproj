@@ -15,6 +15,7 @@
 		FA1A452D287DF60E00777B59 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A452C287DF60E00777B59 /* HomeView.swift */; };
 		FA1A4531287DF76F00777B59 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A4530287DF76F00777B59 /* CircleButtonView.swift */; };
 		FA1A4533287DFCB400777B59 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A4532287DFCB400777B59 /* CircleButtonAnimationView.swift */; };
+		FA1A45A4288054D500777B59 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A45A3288054D500777B59 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FA1A452C287DF60E00777B59 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FA1A4530287DF76F00777B59 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		FA1A4532287DFCB400777B59 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		FA1A45A3288054D500777B59 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				FA1A4517287DED0F00777B59 /* SwiftUICryptoApp.swift */,
 				FA1A4525287DF38D00777B59 /* Extensions */,
+				FA1A45A02880508300777B59 /* Models */,
 				FA1A4528287DF5CE00777B59 /* Core */,
 				FA1A4519287DED0F00777B59 /* ContentView.swift */,
 				FA1A451B287DED1100777B59 /* Assets.xcassets */,
@@ -133,6 +136,14 @@
 				FA1A4532287DFCB400777B59 /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		FA1A45A02880508300777B59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA1A45A3288054D500777B59 /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 				FA1A4531287DF76F00777B59 /* CircleButtonView.swift in Sources */,
 				FA1A4527287DF3A100777B59 /* Color.swift in Sources */,
 				FA1A4533287DFCB400777B59 /* CircleButtonAnimationView.swift in Sources */,
+				FA1A45A4288054D500777B59 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

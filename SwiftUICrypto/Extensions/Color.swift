@@ -1,10 +1,3 @@
-//
-//  Color.swift
-//  SwiftUICrypto
-//
-//  Created by Pierre on 12/07/2022.
-//
-
 import Foundation
 import SwiftUI
 
